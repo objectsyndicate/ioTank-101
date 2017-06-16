@@ -42,7 +42,7 @@ Code includes Arduino Firmware, Android BLE app, and Fritzing/Gerber shield PCB.
 1 10k Resistor
 
 # Build
-Produce the PCB using provided Fritzin/Gerber files and place breakouts as labeled on PCB. 
+Produce the PCB using provided Fritzing/Gerber files and place breakouts as labeled on PCB. 
 
 <img class='img-responsive' src="https://github.com/objectsyndicate/ioTank-101/raw/master/gerber-viewer.easyeda.com.png">
 
