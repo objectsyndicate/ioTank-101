@@ -19,11 +19,17 @@ This was written for the Hackster.io [2017 Co-Making the Future competition](htt
 Code includes Arduino Firmware, Android BLE app, and Fritzing/Gerber shield PCB.
 
 # BOM
+
 1 Arduino 101
+
 1 APDS-9960 breakout 
+
 1 GY-ML8511 breakout
+
 1 Funduino soil mositure sensor
+
 1 10k Thermistor
+
 1 10k Resistor
 
 # Build
