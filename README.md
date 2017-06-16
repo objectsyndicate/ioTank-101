@@ -46,6 +46,8 @@ Produce the PCB using provided Fritzing/Gerber files and place breakouts as labe
 
 <img class='img-responsive' src="https://github.com/objectsyndicate/ioTank-101/raw/master/gerber-viewer.easyeda.com.png">
 
+# Things left to do
+Find a way to calculate aprox PAR/PUR, find an affordable deep red (600-700nm) sensor, add apogee quantum sensor (e-mailed them for this, should be possible with their 0-5v model)
 
 # Copyright/License 
 
