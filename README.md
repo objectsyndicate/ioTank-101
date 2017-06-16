@@ -15,7 +15,9 @@ These wavelengths are critical in photosynthesis,
 
 <img class='img-responsive' src="https://upload.wikimedia.org/wikipedia/commons/2/23/Chlorophyll_ab_spectra-en.svg">
 
-But almost impossible to detect with the naked eye.
+UV is important for other chemical reactions in various plants. 
+
+Detecting these subtilites is almost impossible with the naked eye. More expensive 'quanta' sensors offer better resolution, but for a high pricepoint. The ioTank101 provides similar functionality in a more affordable and open package. 
 
 ioTank-101 is now among the eco-system of open source agriculture solutions Object Syndicate provides to the masses! 
 
