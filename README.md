@@ -4,7 +4,7 @@ Arduino 101 environment monitor.
 
 # What does it do?
 
-It uses affordable, off the shelf, sensors and hardware to monitor light quality for indoor agriculture in a handheld and bluetooth package.
+It uses affordable, off the shelf, sensors and hardware to monitor light quality and other metrics for indoor agriculture in a handheld and bluetooth package.
 
 It does this by detecting particular wavelenghts of light, as well as soil humidity and temperature.
 
@@ -12,7 +12,6 @@ It does this by detecting particular wavelenghts of light, as well as soil humid
 <img class='img-responsive' src="https://github.com/objectsyndicate/ioTank-101/raw/master/GYML8511.png">
 
 ioTank-101 is now among the eco-system of open source agriculture solutions Object Syndicate provides to the masses! 
-
 
 This was written for the Hackster.io [2017 Co-Making the Future competition](https://www.hackster.io/contests/2017chinausyoungmakercompetition ).
 
