@@ -11,6 +11,12 @@ It does this by detecting particular wavelenghts of light, as well as soil humid
 <img class='img-responsive' src="https://github.com/objectsyndicate/ioTank-101/raw/master/APDS-9960_spec.png">
 <img class='img-responsive' src="https://github.com/objectsyndicate/ioTank-101/raw/master/GYML8511.png">
 
+These are critical in photosynthesis,
+
+<img class='img-responsive' src="https://upload.wikimedia.org/wikipedia/commons/2/23/Chlorophyll_ab_spectra-en.svg">
+
+But almost impossible to detect with the naked eye.
+
 ioTank-101 is now among the eco-system of open source agriculture solutions Object Syndicate provides to the masses! 
 
 This was written for the Hackster.io [2017 Co-Making the Future competition](https://www.hackster.io/contests/2017chinausyoungmakercompetition ).
