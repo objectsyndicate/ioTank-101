@@ -19,7 +19,7 @@ These wavelengths are critical in photosynthesis,
 
 UV is important for other chemical reactions in various plants. 
 
-Detecting these subtilites is almost impossible with the naked eye. More expensive 'quanta' sensors offer better resolution, but for a high pricepoint. The ioTank101 provides similar functionality in a more affordable and open package. Not to mention a open platform to hook up a quanta sensor if you choose. 
+Detecting these subtilites is almost impossible with the naked eye. More expensive quantum sensors offer better resolution, but for a high pricepoint. The ioTank101 provides similar functionality in a more affordable and open package. Not to mention an open platform to hook up a quantum sensor if you choose. 
 
 ioTank-101 is now among the eco-system of open source agriculture solutions Object Syndicate provides to the masses! 
 
