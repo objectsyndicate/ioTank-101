@@ -6,6 +6,8 @@ Arduino 101 environment monitor.
 
 It uses affordable, off the shelf, sensors and hardware to monitor light quality and other metrics for indoor agriculture in a handheld and bluetooth package.
 
+<img class='img-responsive' src="https://github.com/objectsyndicate/ioTank-101/raw/master/screen1.jpg">
+
 It does this by detecting particular wavelenghts of light, as well as soil humidity and temperature.
 
 <img class='img-responsive' src="https://github.com/objectsyndicate/ioTank-101/raw/master/APDS-9960_spec.png">
@@ -42,6 +44,9 @@ Code includes Arduino Firmware, Android BLE app, and Fritzing/Gerber shield PCB.
 # Build
 Produce the PCB using provided Fritzin/Gerber files and place breakouts as labeled on PCB. 
 
+<img class='img-responsive' src="https://github.com/objectsyndicate/ioTank-101/raw/master/gerber-viewer.easyeda.com.png">
+
+
 # Copyright/License 
 
 This was all written in June 2017 by John Spounias for OBJECT SYNDICATE LLC.
@@ -49,6 +54,4 @@ This was all written in June 2017 by John Spounias for OBJECT SYNDICATE LLC.
 Released under the GPLv3 license.
 
 
-<img class='img-responsive' src="https://github.com/objectsyndicate/ioTank-101/raw/master/screen1.jpg">
 
-<img class='img-responsive' src="https://github.com/objectsyndicate/ioTank-101/raw/master/gerber-viewer.easyeda.com.png">
