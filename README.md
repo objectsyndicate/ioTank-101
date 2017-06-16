@@ -4,7 +4,7 @@ Arduino 101 environment monitor.
 
 # What does it do?
 
-It uses cheap off the shelf sensors and hardware to monitor light quality for indoor agriculture in a handheld and bluetooth package.
+It uses affordable, off the shelf, sensors and hardware to monitor light quality for indoor agriculture in a handheld and bluetooth package.
 
 It does this by detecting particular wavelenghts and providing feedback, as well as soil humidity and temperature.
 
