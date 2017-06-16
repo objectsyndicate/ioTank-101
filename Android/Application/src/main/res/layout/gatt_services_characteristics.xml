@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/label_state"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp"
+                        tools:layout_conversion_absoluteHeight="25dp"
+                        tools:layout_conversion_absoluteWidth="47dp"
+                        tools:layout_conversion_absoluteX="10dp"
+                        tools:layout_conversion_absoluteY="55dp" />
+
+                    <TextView
+                        android:id="@+id/connection_state"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/disconnected"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp"
+                        tools:layout_conversion_absoluteHeight="25dp"
+                        tools:layout_conversion_absoluteWidth="293dp"
+                        tools:layout_conversion_absoluteX="62dp"
+                        tools:layout_conversion_absoluteY="55dp" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/label_device_address"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp"
+                        tools:layout_conversion_absoluteHeight="25dp"
+                        tools:layout_conversion_absoluteWidth="127dp"
+                        tools:layout_conversion_absoluteX="10dp"
+                        tools:layout_conversion_absoluteY="10dp" />
+
+                    <TextView
+                        android:id="@+id/device_address"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp"
+                        tools:layout_conversion_absoluteHeight="25dp"
+                        tools:layout_conversion_absoluteWidth="212dp"
+                        tools:layout_conversion_absoluteX="142dp"
+                        tools:layout_conversion_absoluteY="10dp" />
+
+                    <TextView
+                        android:id="@+id/clear_value"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/no_data"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp"
+                        tools:layout_conversion_absoluteHeight="25dp"
+                        tools:layout_conversion_absoluteWidth="64dp"
+                        tools:layout_conversion_absoluteX="57dp"
+                        tools:layout_conversion_absoluteY="99dp" />
+
+                    <ProgressBar
+                        android:id="@+id/clearBar"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:max="65535"
+                        android:paddingEnd="10dp"
+                        android:paddingStart="10dp"
+                        android:progressTint="@android:color/darker_gray"
+                        tools:layout_conversion_absoluteHeight="25dp"
+                        tools:layout_conversion_absoluteWidth="234dp"
+                        tools:layout_conversion_absoluteX="121dp"
+                        tools:layout_conversion_absoluteY="99dp" />
+
+                    <TextView
+                        android:id="@+id/red_value"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/no_data"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp"
+                        tools:layout_conversion_absoluteHeight="25dp"
+                        tools:layout_conversion_absoluteWidth="64dp"
+                        tools:layout_conversion_absoluteX="46dp"
+                        tools:layout_conversion_absoluteY="144dp" />
+
+                    <ProgressBar
+                        android:id="@+id/redBar"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:max="65535"
+                        android:paddingEnd="10dp"
+                        android:paddingStart="10dp"
+                        android:progressTint="@android:color/holo_red_dark"
+                        tools:layout_conversion_absoluteHeight="25dp"
+                        tools:layout_conversion_absoluteWidth="245dp"
+                        tools:layout_conversion_absoluteX="110dp"
+                        tools:layout_conversion_absoluteY="144dp" />
+
+                    <TextView
+                        android:id="@+id/green_value"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/no_data"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp"
+                        tools:layout_conversion_absoluteHeight="25dp"
+                        tools:layout_conversion_absoluteWidth="64dp"
+                        tools:layout_conversion_absoluteX="63dp"
+                        tools:layout_conversion_absoluteY="188dp" />
+
+                    <ProgressBar
+                        android:id="@+id/greenBar"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:max="65535"
+                        android:paddingEnd="10dp"
+                        android:paddingStart="10dp"
+                        android:progressTint="@android:color/holo_green_dark"
+                        tools:layout_conversion_absoluteHeight="25dp"
+                        tools:layout_conversion_absoluteWidth="228dp"
+                        tools:layout_conversion_absoluteX="127dp"
+                        tools:layout_conversion_absoluteY="188dp" />
+
+                    <TextView
+                        android:id="@+id/blue_value"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/no_data"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp"
+                        tools:layout_conversion_absoluteHeight="25dp"
+                        tools:layout_conversion_absoluteWidth="64dp"
+                        tools:layout_conversion_absoluteX="50dp"
+                        tools:layout_conversion_absoluteY="233dp" />
+
+                    <ProgressBar
+                        android:id="@+id/blueBar"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:max="65535"
+                        android:paddingEnd="10dp"
+                        android:paddingStart="10dp"
+                        android:progressTint="@android:color/holo_blue_dark"
+                        tools:layout_conversion_absoluteHeight="25dp"
+                        tools:layout_conversion_absoluteWidth="240dp"
+                        tools:layout_conversion_absoluteX="114dp"
+                        tools:layout_conversion_absoluteY="233dp" />
+
+                    <TextView
+                        android:id="@+id/uvi_value"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/no_data"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp"
+                        tools:layout_conversion_absoluteHeight="25dp"
+                        tools:layout_conversion_absoluteWidth="64dp"
+                        tools:layout_conversion_absoluteX="43dp"
+                        tools:layout_conversion_absoluteY="277dp" />
+
+                    <ProgressBar
+                        android:id="@+id/uviBar"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:max="1024"
+                        android:paddingEnd="10dp"
+                        android:paddingStart="10dp"
+                        android:progressTint="@android:color/holo_purple"
+                        tools:layout_conversion_absoluteHeight="25dp"
+                        tools:layout_conversion_absoluteWidth="247dp"
+                        tools:layout_conversion_absoluteX="107dp"
+                        tools:layout_conversion_absoluteY="277dp" />
+
+                    <TextView
+                        android:id="@+id/soil_value"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/no_data"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp"
+                        tools:layout_conversion_absoluteHeight="25dp"
+                        tools:layout_conversion_absoluteWidth="64dp"
+                        tools:layout_conversion_absoluteX="46dp"
+                        tools:layout_conversion_absoluteY="366dp" />
+
+                    <ProgressBar
+                        android:id="@+id/soilBar"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:max="1024"
+                        android:paddingEnd="10dp"
+                        android:paddingStart="10dp"
+                        android:progressTint="@android:color/holo_blue_bright"
+                        tools:layout_conversion_absoluteHeight="25dp"
+                        tools:layout_conversion_absoluteWidth="245dp"
+                        tools:layout_conversion_absoluteX="110dp"
+                        tools:layout_conversion_absoluteY="322dp" />
+
+                    <TextView
+                        android:id="@+id/t1_value"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/no_data"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp"
+                        tools:layout_conversion_absoluteHeight="25dp"
+                        tools:layout_conversion_absoluteWidth="64dp"
+                        tools:layout_conversion_absoluteX="46dp"
+                        tools:layout_conversion_absoluteY="322dp" />
+
+                    <ProgressBar
+                        android:id="@+id/t1Bar"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:max="1024"
+                        android:paddingEnd="10dp"
+                        android:paddingStart="10dp"
+                        android:progressTint="@android:color/holo_orange_dark"
+                        tools:layout_conversion_absoluteHeight="25dp"
+                        tools:layout_conversion_absoluteWidth="245dp"
+                        tools:layout_conversion_absoluteX="110dp"
+                        tools:layout_conversion_absoluteY="366dp" />
+
+                    <TextView
+                        android:id="@+id/prox_value"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/no_data"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp"
+                        tools:layout_conversion_absoluteHeight="25dp"
+                        tools:layout_conversion_absoluteWidth="64dp"
+                        tools:layout_conversion_absoluteX="46dp"
+                        tools:layout_conversion_absoluteY="411dp" />
+
+                    <ProgressBar
+                        android:id="@+id/proxBar"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:max="255"
+                        android:paddingEnd="10dp"
+                        android:paddingStart="10dp"
+                        android:progressTint="@android:color/holo_red_dark"
+                        tools:layout_conversion_absoluteHeight="25dp"
+                        tools:layout_conversion_absoluteWidth="245dp"
+                        tools:layout_conversion_absoluteX="110dp"
+                        tools:layout_conversion_absoluteY="411dp" />
+
+                    <TextView
+                        android:id="@+id/kelvin_value"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/no_data"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp"
+                        tools:layout_conversion_absoluteHeight="25dp"
+                        tools:layout_conversion_absoluteWidth="64dp"
+                        tools:layout_conversion_absoluteX="46dp"
+                        tools:layout_conversion_absoluteY="411dp" />
+
+                    <ProgressBar
+                        android:id="@+id/kelvinBar"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:max="12000"
+                        android:paddingEnd="10dp"
+                        android:paddingStart="10dp"
+                        android:progressTint="@android:color/holo_orange_light"
+                        tools:layout_conversion_absoluteHeight="25dp"
+                        tools:layout_conversion_absoluteWidth="245dp"
+                        tools:layout_conversion_absoluteX="110dp"
+                        tools:layout_conversion_absoluteY="411dp" />
+
+                    <TextView
+                        android:id="@+id/lux_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/no_data"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp"
+                        tools:layout_conversion_absoluteHeight="25dp"
+                        tools:layout_conversion_absoluteWidth="64dp"
+                        tools:layout_conversion_absoluteX="46dp"
+                        tools:layout_conversion_absoluteY="411dp" />
+
+                    <ProgressBar
+                        android:id="@+id/luxBar"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:max="65535"
+                        android:paddingEnd="10dp"
+                        android:paddingStart="10dp"
+                        android:progressTint="@android:color/holo_red_dark"
+                        tools:layout_conversion_absoluteHeight="25dp"
+                        tools:layout_conversion_absoluteWidth="245dp"
+                        tools:layout_conversion_absoluteX="110dp"
+                        tools:layout_conversion_absoluteY="411dp" />
+                </LinearLayout>
+        </ScrollView>
+
+
