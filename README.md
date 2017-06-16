@@ -18,7 +18,23 @@ This was written for the Hackster.io [2017 Co-Making the Future competition](htt
 
 Code includes Arduino Firmware, Android BLE app, and Fritzing/Gerber shield PCB.
 
+# BOM
+1 Arduino 101
+1 APDS-9960 breakout 
+1 GY-ML8511 breakout
+1 Funduino soil mositure sensor
+1 10k Thermistor
+1 10k Resistor
+
+# Build
+Produce the PCB using provided Fritzin/Gerber files and place breakouts as labeled on PCB. 
+
+# Copyright/License 
+
 This was all written in June 2017 by John Spounias for OBJECT SYNDICATE LLC.
+
+Released under the GPLv3 license.
+
 
 <img class='img-responsive' src="https://github.com/objectsyndicate/ioTank-101/raw/master/screen1.jpg">
 
