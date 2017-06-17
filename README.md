@@ -4,7 +4,7 @@ Arduino 101 environment monitor.
 
 # What does it do?
 
-It uses affordable, off the shelf, sensors and hardware to monitor light quality and other metrics for indoor agriculture in a handheld and bluetooth package.
+It uses affordable, off the shelf, sensors and hardware to monitor light quality and other metrics for indoor agriculture in a handheld and bluetooth package. By doing this one can optimize their production with less electricity and resources. 
 
 <img class='img-responsive' src="https://github.com/objectsyndicate/ioTank-101/raw/master/screen1.jpg">
 
